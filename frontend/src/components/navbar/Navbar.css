@@ -1,0 +1,22 @@
+#fontnav{
+    font-weight: 700;
+    font-size: small;
+    color: rgb(17, 50, 119);
+    
+}
+#navbarheight{
+    height:68px;
+}
+
+#btnCSS{
+    background-color: white;
+    color:rgb(17, 50, 119);
+    padding: 5px 20px;
+    border-radius: 2px;
+    border-color:rgb(17, 50, 119) ;
+    font-weight: 700;
+    font-size: small;
+}
+#btnCSS:hover {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 5px 5px 0 rgba(0,0,0,0.19);
+  }

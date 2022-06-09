@@ -1,0 +1,72 @@
+.Inputstyle{
+    border-color: rgb(141, 139, 139);
+    border-radius: 2px;
+}
+
+.TextStyle{
+    color:#172a50;
+    font-size: medium;
+    font-weight: 600;
+}
+.rangebox{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color_gray {
+    color: grey!important;
+}
+
+.PriceRangeField{
+       
+        width: 130px;
+        border-radius: 3px;
+        border: 1px solid #777;
+        padding: 3px 5px;
+
+}
+
+
+.dropdwn{
+    color:rgb(18, 57, 96);
+    background-color: white;
+    border-color:rgb(215, 217, 235);
+    width:100%;
+
+}
+.dropdwn:hover{
+    color: white;
+    background-color:rgb(18, 57, 96) ;
+}
+.Checkdwn{
+    color:#777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.Checkdwn:hover{
+    color: white;
+    background-color:rgb(18, 57, 96) ;
+
+}
+
+.searchbtn{
+    background-color: rgb(18, 57, 96);
+    color:white;
+    width: 150px;
+    
+}
+
+.searchbtn:hover{
+    color:white;
+    
+}
+
+.searchtext{
+    color: rgb(18, 57, 96);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+

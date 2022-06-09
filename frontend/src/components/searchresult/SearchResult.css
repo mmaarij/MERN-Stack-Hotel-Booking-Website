@@ -1,0 +1,40 @@
+#CardLayout{
+    width: 25rem;
+}
+
+#CardLayout:hover{
+    cursor:pointer;
+}
+
+#CardTitleCSS{
+    font-weight: 800;
+    font-family: "Times New Roman", Times, serif;
+    color:black;
+}
+
+.Pricetag{
+    flex: 0 0 auto;
+    border-radius: 17px;
+    background-color: rgb(18, 57, 96);
+    color: rgb(255, 255, 255);
+    padding: 5px 12px;
+    margin: 0px 0px 0px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: inline-block;
+    font: 14px / 16px Roboto;
+    letter-spacing: -0.06px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.liked{
+    color: rgb(70, 70, 70);
+    background-color: rgba(174, 255, 193, 0.704);
+}
+
+.disliked{
+    color: rgb(70, 70, 70);
+    background-color: rgba(255, 174, 196, 0.704);
+}

@@ -1,0 +1,376 @@
+#formdiv {
+  color: rgb(255,255,255);
+}
+
+#hero {
+  height: 120vh;
+  width: 100%;
+  background-image: url("../../assets/img/backgroundImageReduced.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.45);
+  background-blend-mode: darken;
+}
+
+@media (min-width: 992px) {
+  .LandingTitle {
+  }
+}
+
+.LandingTitle {
+  margin-top: 5vh;
+  font-family: 'Amatic SC', serif;
+  font-size: 70px;
+}
+
+@media (min-width: 992px) {
+  .LandingSubtitle {
+    font-size: 22pt;
+  }
+}
+
+#callUsBtn:hover {
+  background: rgba(235,235,235,0.11);
+}
+
+#signInBtn {
+  margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+  #signInBtn {
+    margin-right: 65px;
+  }
+}
+
+@media (min-width: 767px) {
+  #callUsBtn, #signInBtn {
+    color: rgb(255,255,255);
+  }
+}
+
+@media (max-width: 767px) {
+  #callUsBtn, #signInBtn {
+    color: rgb(0,0,0);
+    margin-top: 30px;
+    border: solid;
+    width: 100px;
+  }
+}
+
+@media (min-width: 767px) {
+  #callUsBtn {
+    border-style: solid;
+    border-color: #ffffff;
+  }
+}
+
+#bookingDiv:hover {
+  box-shadow: 0 0 20px rgb(254,232,153);
+}
+
+#bookingDiv {
+  margin-top: 5vh;
+  height: 50%;
+  background: rgba(255,255,255,0.35);
+  border-radius: 20px;
+  box-shadow: 0 0 16px rgb(153,236,254);
+}
+
+
+.submit-now {
+  margin-top: 20px;
+  font-size: 16px;
+  width: 200px;
+  height: 50px;
+  background-color: #e74c3c;
+  border-color: transparent;
+}
+
+.form-control.input {
+  border: 0;
+  background: transparent;
+  border-bottom: 1px solid silver;
+  border-radius: 0px !important;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  border-radius: 0 !important;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  border-radius: 8px !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #4daade;
+  border-color: #4daade;
+  box-shadow: 0px 10px 15px rgba(157,157,157,0.4);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #4daade;
+  border-color: #4daade;
+}
+
+.modern-form {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.modern-form__hr {
+  border-color: #4daade;
+  border-width: 2px;
+  width: 121px;
+}
+
+.modern-form__form-container {
+  padding-top: 70px;
+}
+
+.modern-form__form-group--padding-r {
+  padding-right: 20px;
+}
+
+.modern-form__form-group--padding-t {
+  padding-top: 50px;
+}
+
+.modern-form__form-control--textarea {
+  height: 95px !important;
+  resize: none;
+}
+
+#ContactUs {
+  color: #212529;
+  font-size: 45px;
+}
+
+#footerLogoImg {
+  height: 118.225px;
+  margin-top: 37px;
+}
+
+#searchBtn:hover {
+  background: rgba(153,236,254,0.35);
+}
+
+#searchBtnCol {
+}
+
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+audio, canvas, img, video {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.imageCaption {
+  font-family: Armata, sans-serif;
+  font-size: 2vw;
+}
+
+@media (max-width: 572px) {
+  .imageHeading {
+    font-family: 'Amatic SC', serif;
+    font-weight: bold;
+    font-size: 8vw;
+  }
+}
+
+@media (min-width: 572px) {
+  .imageHeading {
+    font-family: 'Amatic SC', serif;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+}
+
+.sectionGal {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 572px) {
+  #image2Caption-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 572px) {
+  #image2Caption {
+    display: none;
+  }
+}
+
+#section3 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#section3Heading {
+  font-size: 4vw;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#carousel-1 {
+}
+
+#sec3SubTitle {
+  text-align: center;
+  font-family: Armata, sans-serif;
+}
+
+.booking_headings {
+  margin-left: 2%;
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+}
+
+#myFooter {
+  background-color: #172A50;
+  color: white;
+  padding-top: 30px;
+  margin-bottom: -60px;
+}
+
+#myFooter .footer-copyright {
+  background-color: #121f3b;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#myFooter .row {
+  margin-bottom: 60px;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: #ccc;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+  font-size: 32px;
+  color: #f9f9f9;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+  text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter .google:hover {
+  color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+  color: #00aced;
+}
+
+#myFooter .linkedin:hover {
+  color: #007BB6;
+}
+
+#myFooter .btn {
+  color: white;
+  background-color: #d84b6b;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+    text-align: center;
+  }
+}
+
+#footerLogo {
+  height: auto;
+}
+
+#locationRow {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/f/fa/Faisal_Masjid_From_Damn_e_koh.jpg") center / cover no-repeat;
+  height: 160px;
+  background-clip: content-box;
+  padding: 20px 15px 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#section5 {
+  padding-right: 0px;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.cb:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+.cb {
+  background-color: rgba(0,0,0,0.3);
+  background-blend-mode: darken;
+}
+
+#cardGroup {
+  color: #ffffff;
+}
+
+#OurLocations {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  font-size: 45px;
+}
